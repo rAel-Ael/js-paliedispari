@@ -1,10 +1,6 @@
 //Palidroma
 function isPalindromo(parola) {
-    if (parola == parola.reverse()) {
-        return true;
-        
-    }
-    return false;
+    return parola == parola.split('').reverse().join('');
 }
 
 
